@@ -35,6 +35,7 @@
         }
         .tab-content.active {
             display: block;
+            opacity: 1;
         }
         .publication, .employment, .education, .award {
             opacity: 0;
@@ -56,9 +57,9 @@
     <!-- Header -->
     <header class="header-bg h-screen flex items-center justify-center text-white relative">
         <div class="text-center z-10">
-            <img src="thilagan.JPEG" alt="Dr. Thilagan K." class="rounded-full w-32 h-32 mx-auto mb-4 border-4 border-blue-300">
+            <img src="thilagan.JPEG" alt="Dr. Thilagan" class="rounded-full w-32 h-32 mx-auto mb-4 border-4 border-blue-300">
             <h1 class="text-5xl font-bold mb-2">Dr. Thilagan K.</h1>
-            <p class="text-xl">Area of Researcher : Compact desalination, Desalination, Solar Energy</p>
+            <p class="text-xl">Researcher in Solar Energy and Desalination</p>
             <div class="mt-4 flex justify-center space-x-4">
                 <a href="mailto:kthilagan177@gmail.com">Email</a>
                 <a href="https://scholar.google.com/citations?user=5lldYecAAAAJ" target="_blank">Google Scholar</a>
@@ -75,7 +76,7 @@
             <button class="tab-button px-4 py-2 rounded hover:bg-blue-500 hover:text-white" data-tab="employment">Employment</button>
             <button class="tab-button px-4 py-2 rounded hover:bg-blue-500 hover:text-white" data-tab="publications">Publications</button>
             <button class="tab-button px-4 py-2 rounded hover:bg-blue-500 hover:text-white" data-tab="skills">Skills</button>
-            <button class="tab-button px-4 py-2 rounded hover:bg-blue-500 hover:text-white" data-tab="awards">Awards</button>       
+            <button class="tab-button px-4 py-2 rounded hover:bg-blue-500 hover:text-white" data-tab="awards">Awards</button>
             <button class="tab-button px-4 py-2 rounded hover:bg-blue-500 hover:text-white" data-tab="contact">Contact</button>
         </div>
     </nav>
@@ -92,94 +93,112 @@
 
         <!-- Education -->
         <section id="education" class="tab-content">
-            <h2 class="text-4xl font-semibold text-indigo-900 mb-6">Education</h2>
-            <div class="space-y-6">
-                <div>
-                    <h3 class="text-xl font-medium">Ph.D., Indian Institute of Technology Madras</h3>
-                    <p class="text-gray-600">2018 - 2025</p>
-                    <p class="text-gray-700">Thesis: Experimental Investigation on Solar-Driven Multi-Effect Compact Sea Water Desalination System</p>
-                </div>
-                <div>
-                    <h3 class="text-xl font-medium">M.S. (By Research), Anna University, Chennai</h3>
-                    <p class="text-gray-600">2014 - 2017</p>
-                    <p class="text-gray-700">Thesis: Studies on Drying of Leafy Vegetables Using Modified Solar Evacuated Tube Collectors</p>
-                </div>
-                <div>
-                    <h3 class="text-xl font-medium">B.E., Sri Venkateswara College of Engineering</h3>
-                    <p class="text-gray-600">2010 - 2014</p>
-                    <p class="text-gray-700">Branch: Mechanical Engineering</p>
-                </div>
+            <h2 class="text-3xl font-bold mb-6 text-blue-600">Education</h2>
+            <div class="education mb-6 bg-white p-4 rounded-lg shadow">
+                <h3 class="text-xl font-semibold">Ph.D., Mechanical Engineering</h3>
+                <p>Indian Institute of Technology Madras, Chennai, Tamil Nadu | 2018 - 2025</p>
+                <p>Thesis: Experimental Investigation on Solar-Driven Multi-Effect Compact Sea Water Desalination System</p>
+            </div>
+            <div class="education mb-6 bg-white p-4 rounded-lg shadow">
+                <h3 class="text-xl font-semibold">M.S. (By Research)</h3>
+                <p>CEG Guindy Campus, Anna University, Chennai, Tamil Nadu | 2014 - 2017</p>
+                <p>Thesis: Studies on Drying of Leafy Vegetables Using Modified Solar Evacuated Tube Collectors</p>
+            </div>
+            <div class="education mb-6 bg-white p-4 rounded-lg shadow">
+                <h3 class="text-xl font-semibold">B.E., Mechanical Engineering</h3>
+                <p>Sri Venkateswara College of Engineering, Sriperumbudur, Tamil Nadu | 2010 - 2014</p>
             </div>
         </section>
 
         <!-- Employment -->
         <section id="employment" class="tab-content">
-            <h2 class="text-4xl font-semibold text-indigo-900 mb-6">Employment History</h2>
-            <div class="space-y-6">
-                <div>
-                    <h3 class="text-xl font-medium">Senior Project Scientist, IIT Madras</h3>
-                    <p class="text-gray-600">March 2025 - April 2025</p>
-                    <p class="text-gray-700">Department of Mechanical Engineering</p>
-                </div>
-                <div>
-                    <h3 class="text-xl font-medium">Project Officer, IIT Madras</h3>
-                    <p class="text-gray-600">April 2023 - December 2024</p>
-                    <p class="text-gray-700">Department of Mechanical Engineering</p>
-                </div>
-                <div>
-                    <h3 class="text-xl font-medium">Project Officer, IIT Madras</h3>
-                    <p class="text-gray-600">November 2017 - March 2020</p>
-                    <p class="text-gray-700">Department of Mechanical Engineering</p>
-                </div>
-                <div>
-                    <h3 class="text-xl font-medium">Project Associate, IIT Madras</h3>
-                    <p class="text-gray-600">August 2017 - October 2017</p>
-                    <p class="text-gray-700">Department of Mechanical Engineering</p>
-                </div>
-                <div>
-                    <h3 class="text-xl font-medium">Project Associate, IIT Madras</h3>
-                    <p class="text-gray-600">September 2016 - April 2017</p>
-                    <p class="text-gray-700">Department of Mechanical Engineering</p>
-                </div>
+            <h2 class="text-3xl font-bold mb-6 text-blue-600">Employment History</h2>
+            <div class="employment mb-6 bg-white p-4 rounded-lg shadow">
+                <h3 class="text-xl font-semibold">Senior Project Scientist</h3>
+                <p>Department of Mechanical Engineering, IIT Madras | Mar 2025 - Apr 2025</p>
+            </div>
+            <div class="employment mb-6 bg-white p-4 rounded-lg shadow">
+                <h3 class="text-xl font-semibold">Project Officer</h3>
+                <p>Department of Mechanical Engineering, IIT Madras | Apr 2023 - Dec 2024</p>
+            </div>
+            <div class="employment mb-6 bg-white p-4 rounded-lg shadow">
+                <h3 class="text-xl font-semibold">Project Officer</h3>
+                <p>Department of Mechanical Engineering, IIT Madras | Nov 2017 - Mar 2020</p>
+            </div>
+            <div class="employment mb-6 bg-white p-4 rounded-lg shadow">
+                <h3 class="text-xl font-semibold">Project Associate</h3>
+                <p>Department of Mechanical Engineering, IIT Madras | Aug 2017 - Oct 2017</p>
+            </div>
+            <div class="employment mb-6 bg-white p-4 rounded-lg shadow">
+                <h3 class="text-xl font-semibold">Project Associate</h3>
+                <p>Department of Mechanical Engineering, IIT Madras | Sep 2016 - Apr 2017</p>
             </div>
         </section>
 
+        <!-- Publications -->
+        <section id="publications" class="tab-content">
+            <h2 class="text-3xl font-bold mb-6 text-blue-600">Publications</h2>
+            <h3 class="text-2xl font-semibold mb-4">Journal Articles</h3>
+            <div class="publication mb-6 bg-white p-4 rounded-lg shadow">
+                <p>K. Thilagan, S. Advaith, and A. Mani, "Simulation studies and experimental validation on solar multi effect desalination system," <i>Solar Compass</i>, vol. 13, p. 100–110, Mar. 2025. DOI: <a href="https://doi.org/10.1016/j.solcom.2025.100110">10.1016/j.solcom.2025.100110</a></p>
+            </div>
+            <div class="publication mb-6 bg-white p-4 rounded-lg shadow">
+                <p>M. Annamalai and K. Thilagan, "Experimental studies on solar multi-effect sea water desalination system," <i>Solar Energy</i>, vol. 259, pp. 246–256, Jul. 2023. DOI: <a href="https://doi.org/10.1016/j.solener.2023.05.004">10.1016/j.solener.2023.05.004</a></p>
+            </div>
+            <div class="publication mb-6 bg-white p-4 rounded-lg shadow">
+                <p>P. Raghu, K. Thilagan, M. Thirumoorthy, S. Lokachari, and N. Nallusamy, "Spray Characteristics of Diesel and Biodiesel in Direct Injection Diesel Engine," <i>Advanced Materials Research</i>, vol. 768, pp. 173–179, Sep. 2013. DOI: <a href="https://doi.org/10.4028/www.scientific.net/AMR.768.173">10.4028/www.scientific.net/AMR.768.173</a></p>
+            </div>
+            <h3 class="text-2xl font-semibold mb-4">Conference Proceedings</h3>
+            <div class="publication mb-6 bg-white p-4 rounded-lg shadow">
+                <p>K. Thilagan, S. Advaith, and A. Mani, "Experimental Studies on Compact Desalination System," in <i>8th International Conference on Polygeneration (ICP2025)</i>, 2025 [Abstract accepted; Full paper: Communicated]</p>
+            </div>
+            <div class="publication mb-6 bg-white p-4 rounded-lg shadow">
+                <p>K. Thilagan, S. Advaith, and A. Mani, "Simulation studies and experimental validation on solar multi-effect desalination system in Kanyakumari," in <i>8th National and 2nd International Conference on Refrigeration and Air Conditioning</i>, Chennai, India, 2024, pp. 1–9</p>
+            </div>
+            <div class="publication mb-6 bg-white p-4 rounded-lg shadow">
+                <p>K. Thilagan and M. Annamalai, "Experimental studies on solar multi-effect desalination system," in <i>ISES and IEA SHC International Conference on Solar Energy for Buildings and Industry</i>, 2022, pp. 846–857. DOI: <a href="https://doi.org/10.18086/eurosun.2022.09.01">10.18086/eurosun.2022.09.01</a></p>
+            </div>
+            <div class="publication mb-6 bg-white p-4 rounded-lg shadow">
+                <p>K. Thilagan and M. Annamalai, "Falling Film Measurements using High Speed Camera and High Speed Infra-Red Camera," in <i>ISES and IEA SHC International Conference on Solar Energy for Buildings and Industry</i>, 2022, pp. 858–868. DOI: <a href="https://doi.org/10.18086/eurosun.2022.09.02">10.18086/eurosun.2022.09.02</a></p>
+            </div>
+            <div class="publication mb-6 bg-white p-4 rounded-lg shadow">
+                <p>K. Thilagan and A. Mani, "Heat and mass transfer studies on falling film over metal foam layered horizontal tubes in MED system using high speed and high speed infra-red cameras," in <i>International Symposium on Compact Solar Desalination and Cold Storage Systems</i>, Chennai, India, 2022</p>
+            </div>
+            <div class="publication mb-6 bg-white p-4 rounded-lg shadow">
+                <p>K. Thilagan, R. Sivakumar, and R. Saravanan, "Energy analysis of thin layer drying of moringa leaf using solar evacuated finned tube collectors," in <i>National Conference on Large Scale Multi-Disciplinary Systems of National Significance</i>, Satish Dhawan Space Centre SHAR, 2016</p>
+            </div>
+            <div class="publication mb-6 bg-white p-4 rounded-lg shadow">
+                <p>K. Thilagan, A. Elaya Perumal, and R. Saravanan, "Energy analysis of thin layer drying of tomato using solar evacuated finned tube collectors," in <i>4th National Conference on Refrigeration and Air Conditioning</i>, 2015</p>
+            </div>
+            <div class="publication mb-6 bg-white p-4 rounded-lg shadow">
+                <p>P. Raghu, K. Thilagan, M. Thirumoorthy, S. Lokachari, and N. Nallusamy, "Spray Characteristics of Diesel and Biodiesel in Direct Injection Diesel Engine," in <i>International Conference on Energy Efficient Technologies for Sustainability</i>, St. Xavier's Catholic College of Engineering, Nagercoil, Tamil Nadu, India, Apr. 2013</p>
+            </div>
+        </section>
 
-        
         <!-- Skills -->
         <section id="skills" class="tab-content">
-            <h2 class="text-4xl font-semibold text-indigo-900 mb-6">Skills</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                    <h3 class="text-xl font-medium">Coding</h3>
-                    <p class="text-gray-700">Matlab, LaTeX</p>
-                </div>
-                <div>
-                    <h3 class="text-xl font-medium">Software Packages</h3>
-                    <p class="text-gray-700">Ansys, Comsol, Solidworks, AutoCAD, EES, TRNSYS</p>
-                </div>
-                <div>
-                    <h3 class="text-xl font-medium">Languages</h3>
-                    <p class="text-gray-700">Proficient in English, Fluent in Tamil</p>
-                </div>
-            </div>
+            <h2 class="text-3xl font-bold mb-6 text-blue-600">Skills</h2>
+            <ul class="list-disc pl-6">
+                <li><strong>Coding:</strong> Matlab, LaTeX</li>
+                <li><strong>Software Packages:</strong> Ansys, Comsol, Solidworks, AutoCAD, EES, TRNSYS</li>
+                <li><strong>Languages:</strong> English (Proficient), Tamil (Speaking)</li>
+            </ul>
         </section>
 
         <!-- Awards -->
         <section id="awards" class="tab-content">
-            <h2 class="text-4xl font-semibold text-indigo-900 mb-6">Awards & Certifications</h2>
-            <div class="space-y-6">
-                <div>
-                    <h3 class="text-xl font-medium">Early Stage Researcher</h3>
-                    <p class="text-gray-600">University Rovira I Virgili, Tarragona, Spain</p>
-                    <p class="text-gray-700">March 5-21, 2015</p>
-                </div>
-                <div>
-                    <h3 class="text-xl font-medium">Organizing Committee, Workshop on Natural Refrigerants-based HVAC&R Systems</h3>
-                    <p class="text-gray-600">IIT Madras</p>
-                    <p class="text-gray-700">April 2, 2025</p>
-                </div>
-                <!-- Add more awards/certifications as needed -->
+            <h2 class="text-3xl font-bold mb-6 text-blue-600">Awards & Certifications</h2>
+            <div class="award mb-6 bg-white p-4 rounded-lg shadow">
+                <h3 class="text-xl font-semibold">Early Stage Researcher</h3>
+                <p>University Rovira I Virgili, Tarragona, Spain | Mar 2015</p>
+            </div>
+            <div class="award mb-6 bg-white p-4 rounded-lg shadow">
+                <h3 class="text-xl font-semibold">Organizing Committee</h3>
+                <p>Workshop on Natural Refrigerants-based HVAC&R Systems, IIT Madras | Apr 2025</p>
+            </div>
+            <div class="award mb-6 bg-white p-4 rounded-lg shadow">
+                <h3 class="text-xl font-semibold">Organizing Committee</h3>
+                <p>8th National and 2nd International Conference on Refrigeration and Air Conditioning, IIT Madras | Mar 2024</p>
             </div>
         </section>
 
@@ -189,6 +208,7 @@
             <p><strong>Address:</strong> A-3/7 Cee Dee Yes Enclave, Taramani Link Road, Tansi Nagar, Velachery, Chennai, Tamil Nadu, India, PIN: 600042</p>
             <p><strong>Phone:</strong> +91-9445492154</p>
             <p><strong>Email:</strong> <a href="mailto:kthilagan177@gmail.com">kthilagan177@gmail.com</a></p>
+            <p><strong>Professional Memberships:</strong> Indian Desalination Association (LM5O1), ISHRAE Chennai Chapter (30662), International Solar Energy Society, International Desalination Association (168542)</p>
         </section>
     </main>
 
@@ -204,28 +224,33 @@
         const tabButtons = document.querySelectorAll('.tab-button');
         const tabContents = document.querySelectorAll('.tab-content');
 
+        function showTab(tabId) {
+            // Remove active classes
+            tabButtons.forEach(btn => btn.classList.remove('active'));
+            tabContents.forEach(content => content.classList.remove('active'));
+
+            // Add active classes
+            const button = document.querySelector(`.tab-button[data-tab="${tabId}"]`);
+            const content = document.getElementById(tabId);
+            button.classList.add('active');
+            content.classList.add('active');
+
+            // Animate content
+            gsap.fromTo(content.children, 
+                { opacity: 0, scale: 0.95 },
+                { opacity: 1, scale: 1, duration: 0.6, stagger: 0.1, ease: 'power2.out' }
+            );
+        }
+
         tabButtons.forEach(button => {
             button.addEventListener('click', () => {
                 const tabId = button.getAttribute('data-tab');
-                
-                // Remove active classes
-                tabButtons.forEach(btn => btn.classList.remove('active'));
-                tabContents.forEach(content => content.classList.remove('active'));
-
-                // Add active classes
-                button.classList.add('active');
-                document.getElementById(tabId).classList.add('active');
-
-                // Animate content
-                gsap.from(`#${tabId} > *`, {
-                    opacity: 0,
-                    scale: 0.95,
-                    duration: 0.6,
-                    stagger: 0.15,
-                    ease: 'power2.out'
-                });
+                showTab(tabId);
             });
         });
+
+        // Initialize the first tab (bio)
+        showTab('bio');
 
         // Scroll Animations
         gsap.registerPlugin(ScrollTrigger);
