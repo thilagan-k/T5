@@ -145,50 +145,89 @@
         </section>
 
         <!-- Publications -->
-        <section id="publications" class="tab-content">
-            <h2 class="text-3xl font-bold mb-6 text-blue-600">Publications</h2>
-            <h3 class="text-2xl font-semibold mb-4">Journal Articles</h3>
-            <div class="publication mb-6 bg-white p-4 rounded-lg shadow">
-                <p>K. Thilagan, S. Advaith, and A. Mani, "Simulation studies and experimental validation on solar multi effect desalination system," <i>Solar Compass</i>, vol. 13, p. 100–110, Mar. 2025. DOI: <a href="https://doi.org/10.1016/j.solcom.2025.100110">10.1016/j.solcom.2025.100110</a></p>
+            <h2 class="text-4xl font-semibold text-indigo-900 mb-6">Publications</h2>
+            <div class="flex space-x-4 mb-6">
+                <button class="tab-btn px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-800 transition" data-tab="journal">Journal Articles</button>
+                <button class="tab-btn px-4 py-2 bg-gray-200 text-gray-800 rounded hover:bg-gray-300 transition" data-tab="conference">Conference Proceedings</button>
+                <button class="tab-btn px-4 py-2 bg-gray-200 text-gray-800 rounded hover:bg-gray-300 transition" data-tab="media">Media</button>
             </div>
-            <div class="publication mb-6 bg-white p-4 rounded-lg shadow">
-                <p>M. Annamalai and K. Thilagan, "Experimental studies on solar multi-effect sea water desalination system," <i>Solar Energy</i>, vol. 259, pp. 246–256, Jul. 2023. DOI: <a href="https://doi.org/10.1016/j.solener.2023.05.004">10.1016/j.solener.2023.05.004</a></p>
+            <div id="journal" class="tab-content active">
+                <div class="publication-item">
+                    <p>K. Thilagan, S. Advaith, and A. Mani, "Simulation studies and experimental validation on solar multi effect desalination system," <i>Solar Compass</i>, vol. 13, p. 100-110, Mar. 2025. DOI: 10.1016/j.solcom.2025.100110</p>
+                </div>
+                <div class="publication-item">
+                    <p>M. Annamalai and K. Thilagan, "Experimental studies on solar multi-effect sea water desalination system," <i>Solar Energy</i>, vol. 259, pp. 246-256, Jul. 2023. DOI: 10.1016/j.solener.2023.05.004</p>
+                </div>
+                <div class="publication-item">
+                    <p>P. Raghu, K. Thilagan, et al., "Spray Characteristics of Diesel and Biodiesel in Direct Injection Diesel Engine," <i>Advanced Materials Research</i>, vol. 768, pp. 173-179, Sep. 2013. DOI: 10.4028/www.scientific.net/AMR.768.173</p>
+                </div>
             </div>
-            <div class="publication mb-6 bg-white p-4 rounded-lg shadow">
-                <p>P. Raghu, K. Thilagan, et al., "Spray Characteristics of Diesel and Biodiesel in Direct Injection Diesel Engine," <i>Advanced Materials Research</i>, vol. 768, pp. 173–179, Sep. 2013. DOI: <a href="https://doi.org/10.4028/www.scientific.net/AMR.768.173">10.4028/www.scientific.net/AMR.768.173</a></p>
+            <div id="conference" class="tab-content">
+                <div class="publication-item">
+                    <p>K. Thilagan, S. Advaith, and A. Mani, "Experimental Studies on Compact Desalination System," in <i>8th International Conference on Polygeneration (ICP2025)</i>, 2025 [Abstract accepted; Full paper: Communicated]</p>
+                </div>
+                <div class="publication-item">
+                    <p>K. Thilagan, S. Advaith, and A. Mani, "Simulation studies and experimental validation on solar multi-effect desalination system in Kanyakumari," in <i>8th National and 2nd International Conference on Refrigeration and Air Conditioning</i>, Chennai, 2024, pp. 1-9</p>
+                </div>
+                <!-- Add more conference proceedings as needed -->
             </div>
-            <h3 class="text-2xl font-semibold mb-4">Conference Proceedings</h3>
-            <div class="publication mb-6 bg-white p-4 rounded-lg shadow">
-                <p>K. Thilagan, S. Advaith, and A. Mani, "Experimental Studies on Compact Desalination System," in <i>8th International Conference on Polygeneration (ICP2025)</i>, 2025 [Abstract accepted; Full paper: Communicated]</p>
+            <div id="media" class="tab-content">
+                <div class="publication-item">
+                    <p>IIT Madras LinkedIn, "IIT Madras has developed a solar-powered desalination system," 2025. <a href="https://acesse.one/KZtNc" class="text-indigo-600 hover:underline">Link</a></p>
+                </div>
+                <div class="publication-item">
+                    <p>The Times of India, "IIT-M's solar-powered unit aims at 10K litres of potable water per day," Jun. 2025. <a href="https://timesofindia.indiatimes.com/city/chennai/iit-ms-solar-powered-desalunit-aims-at-10k-litres-of-potable-water-per-day/articleshow/121605041.cms" class="text-indigo-600 hover:underline">Link</a></p>
+                </div>
+                <!-- Add more media items as needed -->
             </div>
-            <!-- Add more publications as needed -->
         </section>
 
         <!-- Skills -->
         <section id="skills" class="tab-content">
-            <h2 class="text-3xl font-bold mb-6 text-blue-600">Skills</h2>
-            <ul class="list-disc pl-6">
-                <li><strong>Coding:</strong> Matlab, LaTeX</li>
-                <li><strong>Software Packages:</strong> Ansys, Comsol, Solidworks, AutoCAD, EES, TRNSYS</li>
-                <li><strong>Languages:</strong> English (Proficient), Tamil (Speaking)</li>
-            </ul>
+            <h2 class="text-4xl font-semibold text-indigo-900 mb-6">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="text-xl font-medium">Coding</h3>
+                    <p class="text-gray-700">Matlab, LaTeX</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-medium">Software Packages</h3>
+                    <p class="text-gray-700">Ansys, Comsol, Solidworks, AutoCAD, EES, TRNSYS</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-medium">Languages</h3>
+                    <p class="text-gray-700">Proficient in English, Fluent in Tamil</p>
+                </div>
+            </div>
         </section>
 
         <!-- Awards -->
         <section id="awards" class="tab-content">
-            <h2 class="text-3xl font-bold mb-6 text-blue-600">Awards & Certifications</h2>
-            <div class="award mb-6 bg-white p-4 rounded-lg shadow">
-                <h3 class="text-xl font-semibold">Early Stage Researcher</h3>
-                <p>University Rovira I Virgili, Tarragona, Spain | Mar 2015</p>
+            <h2 class="text-4xl font-semibold text-indigo-900 mb-6">Awards & Certifications</h2>
+            <div class="space-y-6">
+                <div>
+                    <h3 class="text-xl font-medium">Early Stage Researcher</h3>
+                    <p class="text-gray-600">University Rovira I Virgili, Tarragona, Spain</p>
+                    <p class="text-gray-700">March 5-21, 2015</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-medium">Organizing Committee, Workshop on Natural Refrigerants-based HVAC&R Systems</h3>
+                    <p class="text-gray-600">IIT Madras</p>
+                    <p class="text-gray-700">April 2, 2025</p>
+                </div>
+                <!-- Add more awards/certifications as needed -->
             </div>
-            <div class="award mb-6 bg-white p-4 rounded-lg shadow">
-                <h3 class="text-xl font-semibold">Organizing Committee</h3>
-                <p>Workshop on Natural Refrigerants-based HVAC&R Systems, IIT Madras | Apr 2025</p>
-            </div>
-            <div class="award mb-6 bg-white p-4 rounded-lg shadow">
-                <h3 class="text-xl font-semibold">Organizing Committee</h3>
-                <p>8th National and 2nd International Conference on Refrigeration and Air Conditioning, IIT Madras | Mar 2024</p>
-            </div>
+        </section>
+
+        <!-- Memberships Section -->
+        <section id="memberships" class="tab-content">
+            <h2 class="text-4xl font-semibold text-indigo-900 mb-6">Professional Memberships</h2>
+            <ul class="list-disc list-inside text-gray-700 space-y-2">
+                <li>Life Member, Indian Desalination Association (InDA) - LM501</li>
+                <li>Member, Indian Society of Heating, Refrigerating and Air Conditioning Engineers (ISHRAE), Chennai Chapter - 30662</li>
+                <li>Member, International Solar Energy Society (ISES)</li>
+                <li>Member, International Desalination Association (IDA) - 168542</li>
+            </ul>
         </section>
 
         <!-- Contact -->
@@ -197,7 +236,6 @@
             <p><strong>Address:</strong> A-3/7 Cee Dee Yes Enclave, Taramani Link Road, Tansi Nagar, Velachery, Chennai, Tamil Nadu, India, PIN: 600042</p>
             <p><strong>Phone:</strong> +91-9445492154</p>
             <p><strong>Email:</strong> <a href="mailto:kthilagan177@gmail.com">kthilagan177@gmail.com</a></p>
-            <p><strong>Professional Memberships:</strong> Indian Desalination Association (LM5O1), ISHRAE Chennai Chapter (30662), International Solar Energy Society, International Desalination Association (168542)</p>
         </section>
     </main>
 
