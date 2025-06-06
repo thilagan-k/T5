@@ -75,7 +75,8 @@
             <button class="tab-button px-4 py-2 rounded hover:bg-blue-500 hover:text-white" data-tab="employment">Employment</button>
             <button class="tab-button px-4 py-2 rounded hover:bg-blue-500 hover:text-white" data-tab="publications">Publications</button>
             <button class="tab-button px-4 py-2 rounded hover:bg-blue-500 hover:text-white" data-tab="skills">Skills</button>
-            <button class="tab-button px-4 py-2 rounded hover:bg-blue-500 hover:text-white" data-tab="awards">Awards</button>
+            <button class="tab-button px-4 py-2 rounded hover:bg-blue-500 hover:text-white" data-tab="awards">Awards</button>       
+            <button class="tab-button px-4 py-2 rounded hover:bg-blue-500 hover:text-white" data-tab="memberships">Memberships</button>
             <button class="tab-button px-4 py-2 rounded hover:bg-blue-500 hover:text-white" data-tab="contact">Contact</button>
         </div>
     </nav>
@@ -145,10 +146,15 @@
         </section>
 
         <!-- Publications -->
-        <section id="publications" class="tab-content">
-            <h2 class="text-3xl font-bold mb-6 section-heading">Publications</h2>
-            <h3 class="text-2xl font-semibold mb-4">Journal Articles</h3>
-            <div class="publication mb-6 bg-white p-4 rounded-lg shadow">
+        <!-- Publications Section -->
+        <section id="publications" class="section mb-16">
+            <h2 class="text-4xl font-semibold text-indigo-900 mb-6">Publications</h2>
+            <div class="flex space-x-4 mb-6">
+                <button class="tab-btn px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-800 transition" data-tab="journal">Journal Articles</button>
+                <button class="tab-btn px-4 py-2 bg-gray-200 text-gray-800 rounded hover:bg-gray-300 transition" data-tab="conference">Conference Proceedings</button>
+                <button class="tab-btn px-4 py-2 bg-gray-200 text-gray-800 rounded hover:bg-gray-300 transition" data-tab="media">Media</button>
+            </div>
+            <div id="journal" class="tab-content active">
                 <div class="publication-item">
                     <p>K. Thilagan, S. Advaith, and A. Mani, "Simulation studies and experimental validation on solar multi effect desalination system," <i>Solar Compass</i>, vol. 13, p. 100-110, Mar. 2025. DOI: 10.1016/j.solcom.2025.100110</p>
                 </div>
@@ -158,6 +164,25 @@
                 <div class="publication-item">
                     <p>P. Raghu, K. Thilagan, et al., "Spray Characteristics of Diesel and Biodiesel in Direct Injection Diesel Engine," <i>Advanced Materials Research</i>, vol. 768, pp. 173-179, Sep. 2013. DOI: 10.4028/www.scientific.net/AMR.768.173</p>
                 </div>
+            </div>
+            <div id="conference" class="tab-content">
+                <div class="publication-item">
+                    <p>K. Thilagan, S. Advaith, and A. Mani, "Experimental Studies on Compact Desalination System," in <i>8th International Conference on Polygeneration (ICP2025)</i>, 2025 [Abstract accepted; Full paper: Communicated]</p>
+                </div>
+                <div class="publication-item">
+                    <p>K. Thilagan, S. Advaith, and A. Mani, "Simulation studies and experimental validation on solar multi-effect desalination system in Kanyakumari," in <i>8th National and 2nd International Conference on Refrigeration and Air Conditioning</i>, Chennai, 2024, pp. 1-9</p>
+                </div>
+                <!-- Add more conference proceedings as needed -->
+            </div>
+            <div id="media" class="tab-content">
+                <div class="publication-item">
+                    <p>IIT Madras LinkedIn, "IIT Madras has developed a solar-powered desalination system," 2025. <a href="https://acesse.one/KZtNc" class="text-indigo-600 hover:underline">Link</a></p>
+                </div>
+                <div class="publication-item">
+                    <p>The Times of India, "IIT-M's solar-powered unit aims at 10K litres of potable water per day," Jun. 2025. <a href="https://timesofindia.indiatimes.com/city/chennai/iit-ms-solar-powered-desalunit-aims-at-10k-litres-of-potable-water-per-day/articleshow/121605041.cms" class="text-indigo-600 hover:underline">Link</a></p>
+                </div>
+                <!-- Add more media items as needed -->
+            </div>
         </section>
 
         <!-- Skills -->
@@ -195,6 +220,17 @@
                 </div>
                 <!-- Add more awards/certifications as needed -->
             </div>
+        </section>
+
+        <!-- Memberships Section -->
+        <section id="memberships" class="section mb-16">
+            <h2 class="text-4xl font-semibold text-indigo-900 mb-6">Professional Memberships</h2>
+            <ul class="list-disc list-inside text-gray-700 space-y-2">
+                <li>Life Member, Indian Desalination Association (InDA) - LM501</li>
+                <li>Member, Indian Society of Heating, Refrigerating and Air Conditioning Engineers (ISHRAE), Chennai Chapter - 30662</li>
+                <li>Member, International Solar Energy Society (ISES)</li>
+                <li>Member, International Desalination Association (IDA) - 168542</li>
+            </ul>
         </section>
 
         <!-- Contact -->
